@@ -1,6 +1,6 @@
 #include <WiFi.h>
 #include <esp_now.h>
-
+// Replace With your ESP MAC address 88:57:21:B6:55:38
 uint8_t receiverMAC[] = {0x88, 0x57, 0x21, 0xB6, 0x55, 0x38};
 
 typedef struct struct_message {
